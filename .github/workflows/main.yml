@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
       - name: Test with pytest
         run: |
-          python -m pytest example.py
+          pytest example.py
